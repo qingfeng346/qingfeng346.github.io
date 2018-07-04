@@ -1,7 +1,7 @@
 <template>
     <el-container>
         <el-main>
-            wwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+            wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwweeeeeeeeeeeeeeeeeeeeeeeee
         </el-main>
     </el-container>
 </template>
@@ -11,6 +11,9 @@ export default {
         return {
 
         }
+    },
+    methods : {
+        
     }
 }
 </script>

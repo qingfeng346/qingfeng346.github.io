@@ -17,15 +17,18 @@
                 </el-submenu>
             </el-menu>
         </el-header>
-        <el-main>
-            <IndexPart v-show="activeIndex == 'index'"></IndexPart>
-        </el-main>
+        <el-container>
+            <el-main>
+                <IndexPart v-show="activeIndex == 'index'"></IndexPart>
+            </el-main>
+        </el-container>
         <el-footer>Footer</el-footer>
     </el-container>
 </template>
 <script>
     import IndexPart from './IndexPart';
     export default {
+        components : { IndexPart },
         data() {
             return {
                 projects: ["1111","22222"],
