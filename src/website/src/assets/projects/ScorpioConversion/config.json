@@ -1,0 +1,12 @@
+{
+	"source": "ScorpioConversion",
+	"buttons": [{
+		"name": "源码地址",
+		"url": "https://github.com/qingfeng346/ScorpioConversion"
+	},
+	{
+		"name": "安装文件",
+		"url": "project/ScorpioConversion/setup.exe"
+	}
+	]
+}

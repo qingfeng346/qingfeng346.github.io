@@ -1,0 +1,12 @@
+{
+    "name" : "纯c#读取ini文件",
+	"buttons": [
+    {
+		"name": "源码地址",
+		"url": "https://github.com/qingfeng346/ScorpioIni"
+	},
+    {
+		"name": "下载",
+		"url": "project/scorpio-ini/ScorpioIni.zip"
+	}]
+}
