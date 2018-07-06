@@ -16,12 +16,11 @@
     </el-container>
 </template>
 <script>
-    import project from '../config/project';
     import IndexPart from './IndexPart';
     export default {
         components : { IndexPart },
         mounted() {
-            console.log(" " + JSON.stringify(project, null, 2))
+            
         },
         data() {
             return {

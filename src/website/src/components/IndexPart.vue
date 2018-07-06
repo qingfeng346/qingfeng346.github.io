@@ -1,25 +1,29 @@
 <template>
     <el-container>
-        <el-row>
-            <el-col :span="8" v-for="(o, index) in 2" :key="o" :offset="index > 0 ? 2 : 0">
-                <el-card :body-style="{ padding: '0px' }">
-                    <img src="../assets/projects/com.scorpio.agileman/icon.png" class="image">
-                    <div style="padding: 14px;">
-                        <span>好吃的汉堡</span>
-                        <div class="bottom clearfix">
+        <h1>22222222222222</h1>
+        <el-col :span="4" v-for="project in projects" :key="project.name" style="margin: 0px 10px 20px">
+            <el-card :body-style="{ padding: '0px' }">
+                <img src="../assets/projects/com.scorpio.agileman/icon.png" class="image">
+                <div style="padding: 14px;">
+                    <span>{{ project.name }}</span>
+                    <div class="bottom clearfix">
                         <time class="time">{{ currentDate }}</time>
                         <el-button type="text" class="button">操作按钮</el-button>
-                        </div>
                     </div>
-                </el-card>
-            </el-col>
-        </el-row>
+                </div>
+            </el-card>
+        </el-col>
     </el-container>
 </template>
 <script>
+import project from '../config/project';
 export default {
+    mounted() {
+        this.projects = project.projects;
+    },
     data() {
         return {
+            projects : [],
             currentDate: new Date()
         }
     },
