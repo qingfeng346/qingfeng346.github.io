@@ -3,7 +3,7 @@
         <h1>22222222222222</h1>
         <el-col :span="4" v-for="project in projects" :key="project.name" style="margin: 0px 10px 20px">
             <el-card :body-style="{ padding: '0px' }">
-                <img src="../assets/projects/com.scorpio.agileman/icon.png" class="image">
+                <img src="/static/projects/com.scorpio.agileman/icon.png" class="image">
                 <div style="padding: 14px;">
                     <span>{{ project.name }}</span>
                     <div class="bottom clearfix">
