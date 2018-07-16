@@ -1,6 +1,9 @@
 <template>
     <el-container>
         <h1>22222222222222</h1>
+        <el-row>
+          
+        
         <el-col :span="4" v-for="project in projects" :key="project.name" style="margin: 0px 10px 20px">
             <el-card :body-style="{ padding: '0px' }">
                 <img src="/static/projects/com.scorpio.agileman/icon.png" class="image">
@@ -13,6 +16,7 @@
                 </div>
             </el-card>
         </el-col>
+        </el-row>
     </el-container>
 </template>
 <script>
