@@ -19,4 +19,11 @@ export default {
   color: #2c3e50;
   /* margin-top: 60px; */
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.page-header {
+  background-image:linear-gradient(120deg, #155799, #159957)
+}
 </style>
