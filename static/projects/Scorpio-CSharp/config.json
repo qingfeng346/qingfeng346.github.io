@@ -1,0 +1,20 @@
+{
+	"source": "Scorpio-CSharp",
+	"buttons": [{
+		"name": "源码地址",
+		"url": "https://github.com/qingfeng346/Scorpio-CSharp"
+	},
+	{
+		"name": "教程地址",
+		"url": "readme/"
+	},
+	{
+		"name": "脚本实现 Space Shooter",
+		"url": "project/Scorpio-CSharp/unitysample/"
+	},
+	{
+		"name": "脚本实现 Space Shooter 源码",
+		"url": "https://github.com/qingfeng346/ScorpioUnitySample"
+	}
+	]
+}

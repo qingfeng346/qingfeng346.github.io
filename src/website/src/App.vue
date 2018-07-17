@@ -22,6 +22,7 @@ export default {
 html, body {
   height: 100%;
   margin: 0;
+  text-align: center;
 }
 .page-header {
   background-image:linear-gradient(120deg, #155799, #159957)

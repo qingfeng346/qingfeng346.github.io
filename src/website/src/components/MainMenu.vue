@@ -14,6 +14,7 @@ export default {
 .menu {
     font-family:'Hiragino Sans GB', 'Segoe UI', 'Sans-serif', 'Microsoft Yahei', Arial, sans-serif;
     font-size: 18px;
+    float: left;
 }
 .menu li {
     list-style: none;

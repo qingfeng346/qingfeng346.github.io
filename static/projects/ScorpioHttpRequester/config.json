@@ -1,0 +1,12 @@
+{
+	"source": "ScorpioHttpRequester",
+	"buttons": [{
+		"name": "源码地址",
+		"url": "https://github.com/qingfeng346/ScorpioHttpRequester"
+	},
+	{
+		"name": "下载安装包",
+		"url": "project/ScorpioHttpRequester/setup.exe"
+	}
+	]
+}

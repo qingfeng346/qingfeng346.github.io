@@ -1,0 +1,7 @@
+{
+    "name" : "Unity3D 简易计时器",
+	"buttons": [{
+		"name": "下载 unitypackage",
+		"url": "project/scorpio-timer/timer.unitypackage"
+	}]
+}
