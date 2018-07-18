@@ -24,6 +24,9 @@ html, body {
   margin: 0;
   text-align: center;
 }
+el-container {
+  height: 100%;
+}
 .page-header {
   background-image:linear-gradient(120deg, #155799, #159957)
 }

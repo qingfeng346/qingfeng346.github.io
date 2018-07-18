@@ -1,8 +1,8 @@
 <template>
     <ul class="menu">
-        <li><a href="/">首页</a></li>
-        <li><a href="/projects">项目</a></li>
-        <li><a href="/about">关于</a></li>
+        <li><router-link to="/">首页</router-link></li>
+        <li><router-link to="/">项目</router-link></li>
+        <li><router-link to="/about">关于</router-link></li>
     </ul>
 </template>
 <script>
