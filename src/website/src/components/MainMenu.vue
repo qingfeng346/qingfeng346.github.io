@@ -1,7 +1,8 @@
 <template>
     <ul class="menu">
         <li><router-link to="/">首页</router-link></li>
-        <li><router-link to="/">项目</router-link></li>
+        <li><router-link to="/changelog">更新日志</router-link></li>
+        <li><router-link to="/releasenote">版本日志</router-link></li>
         <li><router-link to="/about">关于</router-link></li>
     </ul>
 </template>
