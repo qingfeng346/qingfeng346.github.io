@@ -15,10 +15,10 @@
 </template>
 <script>
     import MainMenu from './MainMenu';
-    import IndexPart from './IndexPart';
+    // import IndexPart from './IndexPart';
     import axios from 'axios'
     export default {
-        components : { MainMenu, IndexPart },
+        components : { MainMenu },
         async mounted() {
             // var str = await axios.get("/static/projects/com.scorpio.agileman/des.md1")
             // console.log("====== " + JSON.stringify(str, null, 2))

@@ -1,9 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Main from '@/components/Main'
-import ChangeLog from '@/components/ChangeLog'
-import ReleaseNotes from '@/components/ReleaseNotes'
-import About from '@/components/About'
 
 Vue.use(Router)
 
@@ -11,23 +7,47 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Main',
-      component: Main
+      name: 'main',
+      component: require("@/components/sco/Main").default
     },
     {
-      path: '/changelog',
-      name: 'ChangeLog',
-      component: ChangeLog
+      path: '/sco',
+      name: 'sco',
+      component: require("@/components/sco/Main").default
     },
     {
-      path: '/releasenote',
-      name: 'ReleaseNotes',
-      component: ReleaseNotes
+      path: '/sco/changelog',
+      name: 'sco-changelog',
+      component: require("@/components/sco/ChangeLog").default
     },
     {
-      path: '/about',
-      name: 'About',
-      component: About
+      path: '/sco/releasenote',
+      name: 'sco-releasenote',
+      component: require("@/components/sco/ReleaseNotes").default
+    },
+    {
+      path: '/sco/about',
+      name: 'sco-about',
+      component: require("@/components/sco/About").default
+    },
+    {
+      path: '/scorpio-package-tool',
+      name: 'scorpio-package-tool',
+      component: require("@/components/scorpio-package-tool/Main").default
+    },
+    {
+      path: '/scorpio-package-tool/releasenote',
+      name: 'scorpio-package-tool-releasenote',
+      component: require("@/components/scorpio-package-tool/ReleaseNotes").default
+    },
+    {
+      path: '/scorpio-package-tool/about',
+      name: 'scorpio-package-tool-about',
+      component: require("@/components/scorpio-package-tool/About").default
+    },
+    {
+      path: '*',
+      redirect: '/'
     }
   ]
 })
