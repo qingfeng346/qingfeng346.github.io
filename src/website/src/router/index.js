@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       name: 'main',
-      component: require("@/components/sco/Main").default
+      component: require("@/components/Main").default
     },
     {
       path: '/sco',
