@@ -37,34 +37,7 @@
     }
 </script>
 <style>
-.title {
-    margin-top: 60px;
-    margin-bottom: 5px;
-    color: white;
-    font-size: 3.1em;
-}
-.des {
-    color: white;
-    font-size: 19px;
-    max-width: 65%;
-    margin: auto;
-    margin-top: 20px;
-    text-align: center;
-}
-.download {
-    margin: 30px 0px;
-    font-size: 20px;
-    background-color: transparent;
-    color: white;
-    width: 200px;
-    height: 60px;
-    border: 1.2px solid white; /* Green */
-}
-.download:hover {
-    background-color: white; /* Green */
-    color: rgb(94, 93, 93);
-    cursor: pointer;
-}
+@import url("../../assets/css/style.css");
 .scriptconsole {
     margin: 0px;
     padding: 0px;

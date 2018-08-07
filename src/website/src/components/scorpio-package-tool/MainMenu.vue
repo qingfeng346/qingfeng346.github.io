@@ -1,6 +1,7 @@
 <template>
     <ul class="menu">
-        <li><router-link to="/scorpio-package-tool/">首页</router-link></li>
+        <li><router-link to="/">主页</router-link></li>
+        <li><router-link to="/scorpio-package-tool/">简介</router-link></li>
         <li><router-link to="/scorpio-package-tool/releasenote">版本日志</router-link></li>
         <li><router-link to="/scorpio-package-tool/about">关于</router-link></li>
     </ul>

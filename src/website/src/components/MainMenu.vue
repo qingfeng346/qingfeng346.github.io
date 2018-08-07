@@ -1,9 +1,6 @@
 <template>
     <ul class="menu">
-        <li><router-link to="/sco/">首页</router-link></li>
-        <li><router-link to="/sco/changelog">更新日志</router-link></li>
-        <li><router-link to="/sco/releasenote">版本日志</router-link></li>
-        <li><router-link to="/sco/about">关于</router-link></li>
+
     </ul>
 </template>
 <script>
