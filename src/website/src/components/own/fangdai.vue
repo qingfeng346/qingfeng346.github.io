@@ -35,6 +35,7 @@
 <script>
 export default {
     mounted() {
+        document.title = `房贷还款`
         this.init()
     },
     data() {
