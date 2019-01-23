@@ -46,6 +46,11 @@ export default new Router({
       component: require("@/components/scorpio-package-tool/About").default
     },
     {
+      path : "/own/fangdai",
+      name: 'own-fangdai',
+      component: require("@/components/own/fangdai").default
+    },
+    {
       path: '*',
       redirect: '/'
     }
