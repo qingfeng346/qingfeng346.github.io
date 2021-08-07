@@ -7,8 +7,6 @@
 sco是c#实现的解释型脚本,是一种高效,轻量,可嵌入的脚本语言,语法类似javascript,类型为弱类型,通过使用基于栈的虚拟机解释字节码来运行.
 ```
 * **脚本示例** [ExampleScripts](https://github.com/qingfeng346/Scorpio-CSharp/tree/master/ExampleScripts)
-* VSCode 基础语法提示插件 https://marketplace.visualstudio.com/items?itemName=while.scorpio
-* nuget地址 https://www.nuget.org/packages/Scorpio-CSharp/
 * 脚本语法 体验地址 http://www.fengyuezhu.com/static/projects/Scorpio-CSharp/scriptconsole/
 * 脚本实现 Space Shooter 体验地址 http://www.fengyuezhu.com/static/projects/Scorpio-CSharp/unitysample/
 * 脚本实现 Space Shooter 源码地址 https://github.com/qingfeng346/ScorpioUnitySample
@@ -29,6 +27,12 @@ pwsh -Command "Invoke-Expression ((New-Object System.Net.WebClient).DownloadStri
 ```command
 powershell.exe -Command "Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://qingfeng346.gitee.io/installsco.ps1'))"
 ```
+
+## 项目中使用
+---
+* VSCode 基础语法高亮插件 https://marketplace.visualstudio.com/items?itemName=while.scorpio
+* nuget 地址 https://www.nuget.org/packages/Scorpio-CSharp
+* 导入源码目录 Scorpio/src 即可
 
 ## 兼容的 **.net** 平台
 ---
