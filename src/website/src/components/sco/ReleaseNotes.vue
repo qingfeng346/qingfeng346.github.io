@@ -13,7 +13,7 @@ import marked from 'marked';
 export default {
     components : { MainMenu },
     async mounted() {
-        var result = await axios.get("https://raw.githubusercontent.com/qingfeng346/Scorpio-CSharp/master/ReleaseNotes.md")
+        var result = await axios.get("https://raw.githubusercontent.com/qingfeng346/Scorpio-CSharp/v2.0/ReleaseNotes.md")
         this.changelog = marked(result.data)
     },
     data() {

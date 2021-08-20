@@ -16,11 +16,6 @@ export default new Router({
       component: require("@/components/sco/Main").default
     },
     {
-      path: '/sco/changelog',
-      name: 'sco-changelog',
-      component: require("@/components/sco/ChangeLog").default
-    },
-    {
       path: '/sco/releasenote',
       name: 'sco-releasenote',
       component: require("@/components/sco/ReleaseNotes").default

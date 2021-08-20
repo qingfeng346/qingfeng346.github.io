@@ -2,8 +2,7 @@
     <ul class="menu">
         <li><router-link to="/">主页</router-link></li>
         <li><router-link to="/sco/">简介</router-link></li>
-        <li><router-link to="/sco/changelog">更新日志</router-link></li>
-        <li><router-link to="/sco/releasenote">版本日志</router-link></li>
+        <li><router-link to="/sco/releasenote">更新日志</router-link></li>
         <li><router-link to="/sco/about">关于</router-link></li>
     </ul>
 </template>

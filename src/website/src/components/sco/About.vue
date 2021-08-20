@@ -14,7 +14,7 @@ export default {
     components : { MainMenu },
     async mounted() {
         //var result = await axios.get("/static/about.md")
-        var result = await axios.get("https://raw.githubusercontent.com/qingfeng346/Scorpio-CSharp/master/README.md")
+        var result = await axios.get("https://raw.githubusercontent.com/qingfeng346/Scorpio-CSharp/v2.0/README.md")
         this.about = marked(result.data)
     },
     data() {
