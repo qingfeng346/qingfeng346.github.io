@@ -1,0 +1,2 @@
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/qingfeng346/Scorpio-CSharp/v2.0/README.md -OutFile ./README.md
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/qingfeng346/Scorpio-CSharp/v2.0/ReleaseNotes.md -OutFile ./ReleaseNotes.md
