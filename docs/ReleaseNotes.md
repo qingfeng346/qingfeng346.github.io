@@ -1,9 +1,64 @@
+## v2.4.0 (*2022-08-24*)
+* `[新增]`新增 **isBool** **toBool** **toBoolean** 函数
+* `[新增]`pairs支持IEnumerator
+* `[修复]`修复协程问题
+* `[修复]`修复宏定义嵌套解析
+
+## v2.3.10 (*2022-07-21*)
+* `[新增]`新增 StringMap 类
+* `[新增]`新增 PollingMap 类
+* `[修改]`#import支持搜索以文件为目录的相对目录
+* `[修改]`HashSet.toString 默认为 json 格式
+* `[删除]`删除编译选项SCORPIO_STACK
+* `[删除]`删除语法 @{}
+* `[删除]`清理已过期的所有功能
+
+## v2.3.9 (*2022-05-06*)
+* `[修复]`修复协程调用问题
+
+## v2.3.8 (*2022-03-26*)
+* `[修复]`修复class toString自动拼接的问题
+
+## v2.3.7 (*2022-03-18*)
+* `[新增]` io库增加函数
+    * readAllLines
+    * writeAllLines
+    * appendAllText
+    * appendAllLines
+    * copyFile
+    * moveFile
+    * movePath
+    * getCreationTime
+    * getLastAccessTime
+    * getLastWriteTime
+    * setCreationTime
+    * setLastAccessTime
+    * setLastWriteTime
+    * getExtension
+    * getFileName
+    * getDirectoryName
+    * changeExtension
+    * combine
+    * getTempFileName
+    * getTempPath
+    * md5
+    * md5Bytes
+    * md5HashToString
+    * toBase64
+    * fromBase64
+* `[新增]` 新增编译字段 ```__FILE__ __LINE__```
+* `[新增]` 字符串与class操作时, toString 起效
+
+## v2.3.6 (*2022-02-02*)
+* `[新增]`新增get类型函数,新增 Object.addGetProperty 函数
+* `[优化]`整理代码,避免常用名冲突
+
 ## v2.3.5 (*2021-11-29*)
 * `[新增]`新增编译配置**preprocessImportFile**
 * `[优化]`整理调用ref out 扩展函数相关代码
 
 ## v2.3.4 (*2021-11-28*)
-* `[修复]`修复调用ref out函数,已经数量为1时的扩展函数问题
+* `[修复]`修复调用ref out函数,以及数量为1时的扩展函数问题
 
 ## v2.3.3 (*2021-11-11*)
 * `[新增]`增加原生协程sleep函数
